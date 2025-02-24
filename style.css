@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+/*Se logra centrar un objeto en el centro*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+}
+main{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 12px;
+    background-color: hsl(216, 50%, 16%);
+}
+#equilibrium{
+    width: 300px;
+    border-radius: 16px;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p{
+    color: grey;
+    padding-bottom: 15px;
+}
+
+#ETH{
+    color: aqua;
+}
+#icon-clock{
+    margin-left: 100px;
+}
+#days{
+    color: grey;
+}
+#image-avatar{
+    width: 30px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ffffffa7;
+    margin-top: 20px;
+}
+#name{
+    color: #fff;
+}
+#text{
+    margin-top: 20px;
+    padding-left: 15px;
+}
